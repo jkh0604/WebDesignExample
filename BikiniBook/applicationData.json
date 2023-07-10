@@ -1,0 +1,31 @@
+[
+    {
+        "index": 0,
+        "url": "/",
+        "name": "Spongebob Characters",
+        "desc": "Welcome to Bikini Bottom!"
+    },
+    {
+        "index": 1,
+        "url": "/Spongebob",
+        "name": "Spongebob Squarepants",
+        "desc": "Spongebob Squarepants is a sea sponge that resides within the city of Bikini Bottom. His age is unknown, however his fondness for cooking is well known to all who come to his place of work, the Krusty Krab.",
+        "img": "spongebob.png"
+        
+    },
+    {
+        "index": 2,
+        "url": "/Patrick",
+        "name": "Patrick Star",
+        "desc": "Patrick Star is SpongeBob's lifelong best friend who also lives in a rock near SpongeBob's pineapple home. He is certainly not one of the brightest aquatic creatures, but he does truly care for those around him.",
+        "img": "patrick.png"
+    },
+    {
+        "index": 3,
+        "url": "/Sandy",
+        "name": "Sandy Cheeks",
+        "desc": "Sandy Cheeks is a squirrel from Texas that somehow made her way down to Bikini Bottom. Though not openly discussed in the show it is implied that Sandy is an incredibly intelligent scientist, which could be the explanation for how a single squirrel can make an oxygen-filled dome all the way at the bottom of the sea.",
+        "img": "sandy.png"
+    }
+]
+

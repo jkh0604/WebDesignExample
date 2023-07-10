@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab 2</title>
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  
+  <script src="/Lab2.js"></script>
+  
+
+</head>
+<body>
+  <h1>Lab 2</h1>
+  <div id="body">
+    <p>To complete Lab 2, your previous Lab 1 needs to be complete and working.  If it is not, go back and complete this now.</p>
+    <p>Update the link below to call the endpoint to get the JSON for your content.</p>
+    <p>Also, open the Lab2.js.  Find where the cards are being created.  Update the cards to show the id, the name, and the desc of each of your characters.</p>
+    
+    <br/>
+    <br/>
+    <div id="root"></div>
+    <br/>
+    <br/>
+    <br/>
+    <a href="index.html">back</a>
+
+
+    <script defer>
+      //Step 1 - retrieve all the books using an XMLHttpRequest
+      //Step 2 - Parse the JSON data and pass it as the first parameter of the following method:
+      //  app.CreateCards(data);
+
+      var xhttp = new XMLHttpRequest();
+      let url = `http://localhost:3050/bikiniBottom/character`;
+      xhttp.open("GET", url, false);
+      xhttp.setRequestHeader("Accept", "application/json");
+      xhttp.send();
+      if (xhttp.status == 200) {
+        data = JSON.parse(xhttp.responseText);
+        app.CreateCards(data);
+
+      } else {
+        //Handle Error
+      }
+
+
+
+ 
+  
+    </script>
+</body>
+</html>

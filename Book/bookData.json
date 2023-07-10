@@ -1,0 +1,17 @@
+[
+    {"id": 0, "name":"Clifford the Big Red Dog", "author":"Norman Bridwell", "category":"Children"},
+    {"id": 1, "name":"The Berenstain Bears and the Prize Pumpkin", "author":"Stan and Jan Berenstain", "category":"Children"},
+    {"id": 2, "name":"Moo, Baa, La La La!", "author":"Sandra Boyton", "category":"Children"},
+    {"id": 3, "name":"Froggy Learns To Swim", "author":"Jonathan London", "category":"Children"},
+    {"id": 4, "name":"Boo Boo (Gossie and Friends)", "author":"Olivier Dunrea", "category":"Children"},
+    {"id": 5, "name":"There Was a Coyote Who Swallowed a Flea", "author":"Jennifer Ward", "category":"Children"},
+
+
+    {"id": 6, "name":"To Kill a Mockingbird", "author":"Harper Lee", "category":"Classic"},
+    {"id": 7, "name":"Pride and Prejudice", "author":"Jane Austen", "category":"Classic"},
+    {"id": 8, "name":"The Great Gatsby", "author":"F. Scott Fitzgerald", "category":"Classic"},
+    {"id": 9, "name":"The Call of the Wild", "author":"Jack London", "category":"Classic"},
+    {"id": 10, "name":"The Lion, the Witch and the Wardrobe", "author":"C.S. Lewis", "category":"Classic"}
+
+
+]
